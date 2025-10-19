@@ -1,5 +1,4 @@
--- List all tables in the current database
-SELECT TABLE_NAME
-FROM INFORMATION_SCHEMA.TABLES
-WHERE TABLE_SCHEMA = DATABASE();
+USE alx_book_store;
 
+-- List all tables in the database
+SHOW TABLES;
